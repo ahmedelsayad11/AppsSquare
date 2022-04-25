@@ -1,16 +1,14 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App] To Implement The Task For ScaleFlex 
+This project was bootstrapped with [Create React App] To Implement The Task For appssquare 
 
-## Task Requirements
+## story
+    this task was made using react & react hook form 
 
-- Getting & displaying images from backend's file as a grid.
-- Hovering some image shows magnifier/zoom icon.
-- Clicking some image opens it in carousel modal.
-- Carousel modal contains arrow on the left and right for navigating to previous & next images.
-- Carousel modal displays the clicked image centered, with showing image's title over it and below shows the image's number over total images count ex. (image 2/30) which means 2nd image from 30 images as in the attached example picture in this mail
+    when you first render the app you fill find a form created by the fakedata.json  mocking an api request 
 
-`All The Requirements Was Achieved In The Task`
+    after completing the form you can see the data provided in the ### `console.log`  of your browser
+
 
 ### Folder Structure
 
@@ -20,8 +18,9 @@ The main folder structure of the code is structured like the following:
 ├── src
 │   ├── api
 │   ├── components 
-|   |   
+|   ├── constants 
 │   ├── _app.js
+│   ├── fakeData
 │   ├
 │   └── index.js
 ├── public
