@@ -1,0 +1,93 @@
+{
+  "data": {
+    "id": 1,
+    "name": "نموذج 1",
+    "fields": [
+      {
+        "id": 14,
+        "name": "fields  TYPE_EMAIL",
+        "type": 11,
+        "is_mandatory": 0
+      },
+      {
+        "id": 19,
+        "name": "fields  TYPE_NUMBER",
+        "type": 3,
+        "is_mandatory": 0
+      },
+      {
+        "id": 20,
+        "name": "fields  TYPE_FILE",
+        "type": 7,
+        "is_mandatory": 0
+      },
+      {
+        "id": 15,
+        "name": "fields  TYPE_DATE",
+        "type": 10,
+        "is_mandatory": 0
+      },
+      {
+        "id": 1,
+        "name": "fields 1 string",
+        "type": 1,
+        "is_mandatory": 1
+      },
+
+      {
+        "id": 5,
+        "name": "fields TYPE_DROPLIST",
+        "type": 4,
+        "is_mandatory": 1,
+        "options": [
+          {
+            "id": 1,
+            "name": "options 1 TYPE_DROPLIST",
+            "has_comment": 0
+          },
+          {
+            "id": 2,
+            "name": "options 2 TYPE_DROPLIST",
+            "has_comment": 1
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "fields TYPE_CHECKBOX",
+        "type": 5,
+        "is_mandatory": 1,
+        "options": [
+          {
+            "id": 3,
+            "name": "options 1 TYPE_CHECKBOX",
+            "has_comment": 0
+          },
+          {
+            "id": 4,
+            "name": "options 2 TYPE_CHECKBOX",
+            "has_comment": 1
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "fields TYPE_RADIO",
+        "type": 6,
+        "is_mandatory": 1,
+        "options": [
+          {
+            "id": 3,
+            "name": "options 1 TYPE_RADIO",
+            "has_comment": 0
+          },
+          {
+            "id": 4,
+            "name": "options 2 TYPE_RADIO",
+            "has_comment": 0
+          }
+        ]
+      }
+    ]
+  }
+}
